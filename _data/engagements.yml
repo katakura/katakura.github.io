@@ -37,3 +37,7 @@
   description: "AzureのCI/CD(DevOps)導入支援"
 - industry: "SIer"
   description: "大手SIer向けAzure上へのコンテナサービス(Dify)設計・構築・導入支援"
+- industry: "ヘルスケア"
+  description: "病院施設向け患者サポートアプリのAzureバックエンドインフラ構築"
+- industry: "ヘルスケア"
+  description: "医療向けAzureサービス基盤の設計、構築"
