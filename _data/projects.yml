@@ -1,6 +1,10 @@
 # プロジェクトのリスト。教えてもらった作品をここに追加していきます。
-# - name: プロジェクト名
-#   description: 概要
-#   url: https://example.com
-#   repo: https://github.com/katakura/example
-#   tags: [Python, Web]
+- name: "Azure Marketplace 負荷テストソリューション"
+  description: "Azure Marketplaceで公開している負荷テストソリューションの構築・公開・維持。"
+  tags: [Azure Marketplace]
+- name: "Azure Marketplace Webアプリケーション脆弱性ソリューション"
+  description: "Azure Marketplaceで公開しているWebアプリケーション脆弱性ソリューションの構築・公開・維持。"
+  tags: [Azure Marketplace]
+- name: "Azure Marketplace ネットワーク脆弱性ソリューション"
+  description: "Azure Marketplaceで公開しているネットワーク脆弱性ソリューションの構築・公開・維持。"
+  tags: [Azure Marketplace]

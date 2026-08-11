@@ -107,6 +107,31 @@ body {
   margin: 0 4px 6px;
 }
 
+.engagement-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.engagement-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.engagement-item p {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.industry-tag {
+  background: rgba(91, 140, 255, 0.15);
+  color: var(--accent);
+}
+
 .cert-list, .article-list {
   list-style: none;
   padding: 0;

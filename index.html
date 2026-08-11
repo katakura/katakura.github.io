@@ -81,6 +81,24 @@ layout: default
 </section>
 {% endif %}
 
+{% if site.data.engagements and site.data.engagements.size > 0 %}
+<section id="case-studies" class="section">
+  <div class="container">
+    <h2>Case Studies</h2>
+    <p class="meta">業界別のAzure技術コンサルティング実績（社名非公開）</p>
+    <div class="engagement-list">
+      {% for eng in site.data.engagements %}
+      <div class="engagement-item">
+        <span class="tag industry-tag">{{ eng.industry }}</span>
+        <p>{{ eng.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="meta">その他多数...</p>
+  </div>
+</section>
+{% endif %}
+
 {% if site.data.certifications and site.data.certifications.size > 0 %}
 <section id="certifications" class="section">
   <div class="container">
