@@ -179,6 +179,8 @@ body {
 
 .experience-item { margin-bottom: 32px; }
 .experience-item h3 { margin: 0 0 4px; font-size: 1.1rem; }
+.experience-item h3 a { color: var(--text); text-decoration: none; }
+.experience-item h3 a:hover { color: var(--accent); }
 
 .projects-grid {
   display: grid;

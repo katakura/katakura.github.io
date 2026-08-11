@@ -81,6 +81,26 @@ layout: default
 </section>
 {% endif %}
 
+{% if site.data.talks and site.data.talks.size > 0 %}
+<section id="speaking" class="section">
+  <div class="container">
+    <h2>Speaking</h2>
+    <div class="experience-list">
+      {% for talk in site.data.talks %}
+      <div class="experience-item">
+        <h3><a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}</a></h3>
+        <p class="meta">{{ talk.event }}</p>
+        {% if talk.co_speakers and talk.co_speakers.size > 0 %}
+        <p class="meta">共同登壇: {{ talk.co_speakers | join: "、" }}</p>
+        {% endif %}
+        {% if talk.note %}<p>{{ talk.note }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% if site.data.engagements and site.data.engagements.size > 0 %}
 <section id="case-studies" class="section">
   <div class="container">
