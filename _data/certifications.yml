@@ -1,9 +1,9 @@
 # LinkedInには全29件の資格が登録されています。判明分から追加中です。
-- name: "Microsoft Certified: Azure Administrator Associate"
+- name: "Microsoft Certified: Azure Administrator Associate (AZ-104)"
   issuer: "Microsoft"
   issued: "2022年9月"
   expires: "2027年9月"
-- name: "Microsoft Certified: Azure Virtual Desktop Specialty"
+- name: "Microsoft Certified: Azure Virtual Desktop Specialty (AZ-140)"
   issuer: "Microsoft"
   issued: "2023年5月"
   expires: "2027年6月"
