@@ -1,12 +1,12 @@
 ---
 ---
 :root {
-  --bg: #ffffff;
-  --bg-alt: #f5f6f8;
-  --text: #1c1f26;
-  --text-muted: #5b6270;
-  --accent: #2f5fd8;
-  --border: #e2e4ea;
+  --bg: #0f1115;
+  --bg-alt: #161922;
+  --text: #e8eaf0;
+  --text-muted: #9aa0ac;
+  --accent: #5b8cff;
+  --border: #262a35;
   --radius: 10px;
 }
 
@@ -30,7 +30,7 @@ body {
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(15, 17, 21, 0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
@@ -106,7 +106,7 @@ body {
 .badge {
   display: inline-block;
   font-size: 0.8rem;
-  background: rgba(47, 95, 216, 0.1);
+  background: rgba(91, 140, 255, 0.15);
   color: var(--accent);
   border: 1px solid var(--accent);
   padding: 4px 14px;
@@ -135,7 +135,7 @@ body {
 }
 
 .industry-tag {
-  background: rgba(47, 95, 216, 0.1);
+  background: rgba(91, 140, 255, 0.15);
   color: var(--accent);
 }
 
