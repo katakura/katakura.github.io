@@ -93,8 +93,8 @@ layout: default
       <div class="experience-item">
         <h3><a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}</a></h3>
         <p class="meta">{{ talk.event }}</p>
-        {% if talk.co_speakers and talk.co_speakers.size > 0 %}
-        <p class="meta">共同登壇: {{ talk.co_speakers | join: "、" }}</p>
+        {% if talk.co_speakers_note and talk.co_speakers_note != "" %}
+        <p class="meta">{{ talk.co_speakers_note }}</p>
         {% endif %}
         {% if talk.note %}<p>{{ talk.note }}</p>{% endif %}
       </div>

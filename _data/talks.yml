@@ -1,6 +1,6 @@
 # 登壇・カンファレンス発表履歴
 - title: "現場からみた Azure リファレンスアーキテクチャ答え合わせ"
   event: "Microsoft Build 2022 (セッションコード: JPCTT09)"
-  co_speakers: ["浅見 城輝", "森島 政人", "足利 惟"]
+  co_speakers_note: "他3名と共同登壇"
   note: "登壇者全員がMicrosoft MVP for Azure（当時株式会社pnop在籍）"
   url: "https://www.slideshare.net/slideshow/azure-251867486/251867486"
