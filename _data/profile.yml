@@ -7,10 +7,10 @@ bio: >
   Infrastructure as Code（ARM / Bicep / Terraform）を得意とし、Zennで学びや検証を発信しています。
 badges:
   - "元 Microsoft MVP for Azure（2017年3月 - 2025年7月）"
-avatar: "" # 例: /assets/img/avatar.jpg
+avatar: "/assets/img/avatar.jpg"
 location: "神奈川県川崎市"
 email: ""
 github: "katakura"
 linkedin: "yoshimasakatakura"
 zenn: "yotan"
-x: "" # 旧Twitter
+x: "yo_ta_n" # 旧Twitter
