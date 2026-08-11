@@ -9,6 +9,9 @@ layout: default
     {% endif %}
     <h1>{{ site.data.profile.name }}</h1>
     <p class="tagline">{{ site.data.profile.title }}</p>
+    {% if site.data.profile.catchphrase and site.data.profile.catchphrase != "" %}
+    <p class="catchphrase">{{ site.data.profile.catchphrase }}</p>
+    {% endif %}
     {% if site.data.profile.badges and site.data.profile.badges.size > 0 %}
     <div class="badges">
       {% for badge in site.data.profile.badges %}<span class="badge">{{ badge }}</span>{% endfor %}
