@@ -1,7 +1,9 @@
 name: "片倉 義昌 (Yoshimasa Katakura)"
 title: "Azure Consultant"
 bio: >
-  Azureのインフラストラクチャ・ネットワーキング領域を中心に活動するAzureコンサルタント。
+  1988年にNTT向け交換機ソフトウェア開発でIT業界のキャリアをスタート。
+  インターネットホスティング、メールセキュリティ製品エンジニアリング、仮想化基盤構築を経て、
+  現在はAzureのインフラストラクチャ・ネットワーキング領域を中心に活動するAzureコンサルタント。
   Infrastructure as Code（ARM / Bicep / Terraform）を得意とし、Zennで学びや検証を発信しています。
 badges:
   - "元 Microsoft MVP for Azure（2017年3月 - 2025年7月）"
