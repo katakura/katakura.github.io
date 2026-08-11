@@ -1,5 +1,8 @@
-# スキルのリスト。カテゴリごとにまとめられます。
-# - category: Languages
-#   items: [Python, TypeScript, Go]
-# - category: Tools
-#   items: [Docker, Git, AWS]
+- category: "Cloud"
+  items: [Microsoft Azure, Azure Virtual Desktop, Azure Container Apps, Azure Static Web Apps, Azure Arc, Datadog]
+- category: "Infrastructure as Code"
+  items: [Bicep, ARM Templates, Terraform]
+- category: "Networking / Infrastructure"
+  items: [ネットワークアーキテクチャ, Windows Server]
+- category: "Tools"
+  items: [GitHub, Bash]

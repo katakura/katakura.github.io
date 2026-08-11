@@ -92,6 +92,42 @@ body {
   margin: 0 0 24px;
 }
 
+.badges {
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  background: rgba(91, 140, 255, 0.15);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin: 0 4px 6px;
+}
+
+.cert-list, .article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-item { margin-bottom: 20px; }
+.cert-item h3 { margin: 0 0 4px; font-size: 1.05rem; }
+
+.article-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-list a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.article-list a:hover { color: var(--accent); }
+
 .social-links a {
   color: var(--text);
   text-decoration: none;

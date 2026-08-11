@@ -1,10 +1,14 @@
-# ここに自分の情報を入れてください。会話の中で教えてもらった内容を随時反映します。
-name: "TODO: 名前"
-title: "TODO: 肩書き（例: Software Engineer）"
-bio: "TODO: 自己紹介の一言"
+name: "片倉 義昌 (Yoshimasa Katakura)"
+title: "Azure Consultant"
+bio: >
+  Azureのインフラストラクチャ・ネットワーキング領域を中心に活動するAzureコンサルタント。
+  Infrastructure as Code（ARM / Bicep / Terraform）を得意とし、Zennで学びや検証を発信しています。
+badges:
+  - "元 Microsoft MVP for Azure（2017年3月 - 2025年7月）"
 avatar: "" # 例: /assets/img/avatar.jpg
-location: ""
+location: "神奈川県川崎市"
 email: ""
 github: "katakura"
-linkedin: ""
+linkedin: "yoshimasakatakura"
+zenn: "yotan"
 x: "" # 旧Twitter

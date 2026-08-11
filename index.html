@@ -9,12 +9,20 @@ layout: default
     {% endif %}
     <h1>{{ site.data.profile.name }}</h1>
     <p class="tagline">{{ site.data.profile.title }}</p>
+    {% if site.data.profile.badges and site.data.profile.badges.size > 0 %}
+    <div class="badges">
+      {% for badge in site.data.profile.badges %}<span class="badge">{{ badge }}</span>{% endfor %}
+    </div>
+    {% endif %}
     <div class="social-links">
       {% if site.data.profile.github and site.data.profile.github != "" %}
       <a href="https://github.com/{{ site.data.profile.github }}" target="_blank" rel="noopener">GitHub</a>
       {% endif %}
       {% if site.data.profile.linkedin and site.data.profile.linkedin != "" %}
       <a href="https://linkedin.com/in/{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      {% endif %}
+      {% if site.data.profile.zenn and site.data.profile.zenn != "" %}
+      <a href="https://zenn.dev/{{ site.data.profile.zenn }}" target="_blank" rel="noopener">Zenn</a>
       {% endif %}
       {% if site.data.profile.x and site.data.profile.x != "" %}
       <a href="https://x.com/{{ site.data.profile.x }}" target="_blank" rel="noopener">X</a>
@@ -61,8 +69,53 @@ layout: default
       {% for exp in site.data.experience %}
       <div class="experience-item">
         <h3>{{ exp.role }} — {{ exp.org }}</h3>
-        <p class="meta">{{ exp.period }}</p>
+        <p class="meta">{{ exp.period }}{% if exp.location %} ・ {{ exp.location }}{% endif %}</p>
         <p>{{ exp.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.certifications and site.data.certifications.size > 0 %}
+<section id="certifications" class="section">
+  <div class="container">
+    <h2>Certifications</h2>
+    <div class="cert-list">
+      {% for cert in site.data.certifications %}
+      <div class="cert-item">
+        <h3>{{ cert.name }}</h3>
+        <p class="meta">{{ cert.issuer }}{% if cert.issued %} ・ 発行: {{ cert.issued }}{% endif %}{% if cert.expires %} ・ 有効期限: {{ cert.expires }}{% endif %}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.articles and site.data.articles.size > 0 %}
+<section id="articles" class="section">
+  <div class="container">
+    <h2>Articles</h2>
+    <ul class="article-list">
+      {% for article in site.data.articles %}
+      <li><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.education and site.data.education.size > 0 %}
+<section id="education" class="section">
+  <div class="container">
+    <h2>Education</h2>
+    <div class="experience-list">
+      {% for edu in site.data.education %}
+      <div class="experience-item">
+        <h3>{{ edu.school }}</h3>
+        <p class="meta">{{ edu.department }}{% if edu.period %} ・ {{ edu.period }}{% endif %}</p>
       </div>
       {% endfor %}
     </div>

@@ -1,5 +1,25 @@
-# 職歴・経歴のリスト。
-# - role: 役職
-#   org: 組織名
-#   period: 2020 - 現在
-#   description: 内容
+- role: "Chief Specialist"
+  org: "株式会社ジール"
+  period: "2024年12月 - 現在"
+  location: "東京都（ハイブリッド）"
+  description: "Datadog、Terraformなどを中心としたコンサルティング業務。"
+- role: "Senior Consultant"
+  org: "株式会社pnop"
+  period: "2015年2月 - 2024年11月"
+  location: "東京都品川区（リモート）"
+  description: "Microsoft Azureに関するコンサルティング、構築支援、運用支援、セミナー登壇などを担当。"
+- role: "System Engineer"
+  org: "JP System solution"
+  period: "2014年7月 - 2014年12月"
+  location: "東京都（オンサイト）"
+  description: "仮想・物理サーバーの保守、管理、構築。"
+- role: "System Engineer"
+  org: "IT Works"
+  period: "2012年3月 - 2014年6月"
+  location: "東京都（オンサイト）"
+  description: "仮想化基盤（Hyper-V）および物理サーバーの運用・構成提案。"
+- role: "System Engineer"
+  org: "Scient"
+  period: "2011年11月 - 2012年1月"
+  location: "東京都（オンサイト）"
+  description: "クライアント向けサーバー資産管理（複数拠点、300台以上）。"
