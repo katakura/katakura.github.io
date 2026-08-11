@@ -1,0 +1,18 @@
+title: Katakura Portfolio
+description: "TODO: 一言で自分を表す説明文"
+url: "https://katakura.github.io"
+baseurl: ""
+
+# GitHubリポジトリ katakura/katakura.github.io の main ブランチに push すると
+# GitHub Pages が自動でこの設定を使ってビルドします。
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
