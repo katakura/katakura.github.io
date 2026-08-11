@@ -33,3 +33,7 @@
   description: "Azureのクラシックリソース(VMs V1)からモダンリソース(VMs V2)への移行"
 - industry: "印刷業"
   description: "小売店商品管理系システムのAzure化においてAzure技術コンサルティングを提供"
+- industry: "建設機器製造業"
+  description: "AzureのCI/CD(DevOps)導入支援"
+- industry: "SIer"
+  description: "大手SIer向けAzure上へのコンテナサービス(Dify)設計・構築・導入支援"
