@@ -1,5 +1,5 @@
 - category: "Cloud"
-  items: [Microsoft Azure, Azure Virtual Desktop, Azure Container Apps, Azure Static Web Apps, Azure Arc, Datadog]
+  items: [Microsoft Azure, Azure Virtual Desktop, Azure Container Apps, Azure Static Web Apps, Azure Arc]
 - category: "Infrastructure as Code"
   items: [Bicep, ARM Templates, Terraform]
 - category: "Networking / Infrastructure"
